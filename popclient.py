@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-# Pop client with argparse via Louis!
 # Simple script for testing POP
-# https://git.corp.yahoo.com/robertf/Email-Tools
 # Please add to the repo and help out! :)
 
 import email
@@ -24,8 +22,6 @@ parser = argparse.ArgumentParser(
         * $ python pop_client.py <user> <pass> <server>          *
         * $ python pop_client.py <user> <pass> <server> -v 1     *
         *                                                        *
-        * Add to the project!                                    *
-        * https://git.corp.yahoo.com/robertf/Email-Tools         *
         **********************************************************
         '''))
 parser.add_argument("user", help="Account username")
